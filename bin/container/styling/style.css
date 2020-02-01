@@ -1,0 +1,100 @@
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 2 0 ;
+    -fx-background-radius: 0 ;
+    -fx-font-family: times, serif;
+    -fx-font-size: 12px;
+}
+
+.text-field:focused, #correct:focused, #neutral:focused, #incorrect:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+#beskrivelseText{
+	-fx-font-style: italic;
+	-fx-text-fill: gray;
+}
+
+#indsendAnmodningButton{
+	-fx-border: none;
+	-fx-border-radius: 0px;
+	-fx-text-fill: rgb(80,80,80);
+	-fx-background-color: rgb(101, 184, 215);
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+}
+
+#eksporterLaaneanmodningButton{
+	-fx-border: none;
+	-fx-border-radius: 0px;
+	-fx-text-fill: rgb(80,80,80);
+	-fx-background-color: rgb(101, 184, 215);
+	-fx-font-weight: bold;
+	-fx-font-size: 16px;
+}
+
+#indsendAnmodningButton:hover{
+	-fx-background-color: rgb(115, 202, 234);
+	-fx-cursor: hand;
+}
+
+#indsendAnmodningButton:pressed{
+	-fx-background-color: rgb(83,164,198);
+}
+
+#dropdown{
+	-fx-border:none;
+	-fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 2 0 ;
+    -fx-background-radius: 0 ;
+}
+
+#dropdown_correct .label{
+	-fx-border:none;
+	-fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 2 0 ;
+    -fx-background-radius: 0 ;
+	-fx-text-fill:rgb(40,140,40);
+}
+
+#dropdown:hover{
+	-fx-cursor: hand;
+	-fx-background-color: rgb(184,184,184);
+}
+
+#incorrect{
+	 -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 2 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-fill:red;
+}
+
+#correct{
+	-fx-text-fill:rgb(40,140,40);
+}
+
+#neutral{
+	-fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 2 0 ;
+    -fx-background-radius: 0 ;
+    -fx-text-fill: black;
+}
+
+#ikkeAEndre{
+	-fx-background-color: rgb(235,235,235);
+	-fx-padding: 0 0 0 6;
+	-fx-text-fill:rgb(40,140,40);
+}
+
+#headerTekst{
+	-fx-font-size:16px;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgb(200,80,80);
+}
+
+#headerGodtTekst{
+	-fx-font-size:16px;
+	-fx-font-weight: bold;
+	-fx-text-fill: rgb(40,140,40);
+}
